@@ -18,17 +18,19 @@ A few things I should have mentioned yesterday...
 
 ## Expectations for your data product & its repo
 
-- You will use a project board to transparently manage the project
+- You will use a project board to transparently manage the project.
 
+- You will have a Code of Conduct and a Contributing file in the root of the project's repo.
 
-- You will have a Code of Conduct and a Contributing file in the root of the project's repo
+- You will work in a branch-pull request fashion, where master is protected (if your tooling allows for that) and someone other than the pull request creator reviews and merges the pull request. Code should be pushed to the branch being worked on at the end of every work session.
 
+- Code should follow the DRY principle, and there should be unit tests for every function.
 
-- You will work in a branch-PR fashion, where master is protected (if your tooling allows for that)
+- Code is reproducible from end-to-end and from machine-to-machine.
 
+- All project-related communications that have implications related to decisions about the project should be linked to the project via issues.
 
-- These expectations are documented here: https://github.ubc.ca/MDS-2019-20/DSCI_591_capstone-proj_students/blob/master/deliverables/final/final.md
-
+- all this is documented here: https://github.ubc.ca/MDS-2019-20/DSCI_591_capstone-proj_students/blob/master/deliverables/final/final.md#mechanic-expectations
 ---
 
 ## TL;DR - do all the good things you learned about in your project courses!
@@ -211,7 +213,7 @@ profvis::profvis(mtcars %>% lm(mpg ~ wt + cyl, .))
 
 - [Provis](https://rstudio.github.io/profvis/index.html) - is an interactive tool for visualizing code speed in R
 
-- Asking MDS Python folks for their recommendation in Python
+- In Python, recommended tools include the [Python profilers](https://docs.python.org/3/library/profile.html), [`timeit`](https://docs.python.org/3/library/timeit.html) 
 
 - **Can be worth doing before moving onto the next stage of speeding up your code.**
 

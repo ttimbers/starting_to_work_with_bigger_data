@@ -30,7 +30,8 @@ A few things I should have mentioned yesterday...
 
 - All project-related communications that have implications related to decisions about the project should be linked to the project via issues.
 
-- all this is documented here: https://github.ubc.ca/MDS-2019-20/DSCI_591_capstone-proj_students/blob/master/deliverables/final/final.md#mechanic-expectations
+- all this is documented here in [DSCI_591_capstone-proj_students/final/final.md#mechanic-expectations](https://github.ubc.ca/MDS-2019-20/DSCI_591_capstone-proj_students/blob/master/deliverables/final/final.md#mechanic-expectations)
+
 ---
 
 ## TL;DR - do all the good things you learned about in your project courses!
@@ -44,6 +45,19 @@ Question - you are given a .csv file and asked to analyze it with R or Python, h
 ---
 
 ## What do you do if your file is too big to preview in an editor?
+
+This data file that I analyzed during my postdoc is 841256 lines long, & very wide. 
+
+Totaling 6.8 GB in memory!
+
+```
+ls -l data/
+```
+
+```
+-rw-r--r--@ 1 tiffany  staff  6880914287  4 May 15:50 MMP.vcf
+```
+---
 
 Here the terminal/Git Bash is your friend! 
 
